@@ -1,0 +1,22 @@
+.header {
+  padding: 30px 50px;
+  border-bottom: 1px solid #000;
+}
+
+.header__nav {
+  display: flex;
+  gap: 30px;
+  font-style: normal;
+  color: #000;
+}
+
+.header__nav-item {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 22px
+}
+
+.header__nav-item.active {
+  color: #e1b382
+}

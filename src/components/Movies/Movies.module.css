@@ -1,0 +1,29 @@
+.movies {
+  padding: 40px 50px;
+}
+
+.movies__input {
+  width: 230px;
+  height: 25px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #000;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.movies__submit {
+  height: 27px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.movie__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
