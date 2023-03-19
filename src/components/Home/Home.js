@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 import css from './Home.module.css';
 
@@ -16,6 +17,10 @@ const Home = ({ movies }) => {
       </ul>
     </div>
   );
+};
+
+Home.propTypes = {
+  movies: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default Home;

@@ -7,7 +7,6 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename="/goit-react-hw-05-movies">
-      {/* <BrowserRouter basename="/react-homework-template"> */}
       <App />
     </BrowserRouter>
   </React.StrictMode>
